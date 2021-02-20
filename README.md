@@ -1,1 +1,1 @@
-# Program for calculating punching reinforcemen
+# Program for calculating punching reinforcement
