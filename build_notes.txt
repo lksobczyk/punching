@@ -1,0 +1,143 @@
+
+[NEW]  nowe funkcje (sugestie)          [UNF]  niedokończone funkcje
+[MOD]  modyfikacje funkcji              [BUG]  zauważone błędy w działaniu
+[FIX]  poprawki zgłoszonych błędów      [BRK]  tymczasowo niedostępne
+
+
+
+Punching    wersja 1.0.0.1    (14.07.2020)
+
+[NEW] interfejs do wprowadzania danych: rodzaj słupa, materiały, geometria, zbrojenie
+
+
+Punching    wersja 1.0.0.2    (27.07.2020)
+
+[NEW] zapis i odczyt dokumentu z pliku w formacie xml
+[NEW] obliczenia dla słupa wewnętrznego o przekroju prostokątnym i kołowym
+[NEW] rysunek rozkładu zbrojenia na przebicie oraz zestawienie wartości obliczonych
+[MOD] w zakładce Materiały powinien być wybór pomiędzy trzema gatunkami stali: B400, B500 i B600,
+      fyk wynosi odpowiednio 400MPa, 500MPa i 600MPa, wartość domyślna 500MPa
+[MOD] wartości domyślne – przyjąć klasę betonu C20/25, zbrojenie fi16 co 100
+[MOD] "General parameters" wybór norm PN-EN-1992-1-1/EN-1992-1-1
+      zmiana współczynnika gamma c = 1,4/1,5
+[MOD] "General parameters" ukrycie przycisku obliczenia naukowe
+[FIX] wprowadzanie stopnia zbrojenia w % nie w [-]
+[FIX] przekrój zbrojenia w cm^2/m
+[FIX] wyświetlanie momentów z dokładnością do 2 miejsc po przecinku
+[FIX] sposób wprowadzania zbrojenia w obu kierunkach powinien być taki sam
+[UNF] w zakładce Materiały fck powinno być nieaktywne (tak jak jest) i wyszarzane
+[UNF] w zakładce Materiały powinna być informacja o gamma c i gamma s
+      (obie wartości wyszarzane i nieaktywne)
+[UNF] w zakładce Materiały dane dotyczące stali są niepotrzebne;
+      w zakładce Materiały nie umieszczalibyśmy informacji o stali zbrojenia poprzecznego;
+[UNF] powinna być zdefiniowana otulina górna i dolna w sposób niezależny;
+      wartość otuliny 10mm - połowa grubości płyty
+[UNF] po zadaniu obciążenia narysować wektory momentów Mx i My i wektor momentu wypadkowego
+[UNF] linie wymiarowe z oznaczeniem (sx=100mm) widoczne na rysunku
+[BUG] brak zablokowania funkcji wprowadzania danych literowych przy zbrojeniu i obciążeniu
+[BRK] powinien być widoczny rzut i przekrój płyty jednocześnie
+
+
+Punching    wersja 1.0.0.3    (18.08.2020)
+
+[NEW] dodawanie, usuwanie oraz modyfikacja położenia i wymiarów otworów
+[NEW] narysowane wektory momentów Mx i My i wektor momentu wypadkowego
+[MOD] w zakładce Materiały usunięte dane dotyczące stali zbrojenia poprzecznego
+[MOD] w zakładce Materiały pola fck, fyk są nieaktywne i szare
+[MOD] otulina górna i dolna zdefiniowana w sposób niezależny
+[FIX] aktualizacja wyników obliczeń po zmianie parametru γc.
+[FIX] kropka lub przecinek jako separator dziesiętny w polach liczbowych
+[FIX] zablokowane wprowadzanie danych literowych przy zbrojeniu i obciążeniu
+[FIX] aktualizacja rozstawu prętów (sx, sy), ilość (Asx, Asy) oraz stopnia zbrojenia (ρx, ρy)
+[UNF] weryfikacja poprawności położenia otworów (względem słupa lub innych otworów)
+[UNF] obliczenia dla słupów krawędziowych i narożnych oraz końca / naroża ściany
+[UNF] linie wymiarowe z oznaczeniem (sx=100mm) widoczne na rysunku
+
+
+Punching    wersja 1.0.0.4    (20.09.2020)
+
+[NEW] podział obwodu kontrolnego u1 po uwzględnieniu obszarów otworów
+[NEW] okno startowe z grafiką firmy Kontakt SK i informacją o rejestracji
+[MOD] pole edycyjne dla współczynnika kmax w "General parameters"
+[MOD] niewidoczne pola edycyjne momentów w przypadku końca / naroża ściany
+[MOD] możliwość włączenia bądź wyłączenia rysowania siatki zbrojenia
+[MOD] narysowanie większego obszaru zbrojenia podłużnego wokół słupa
+[FIX] wydłużenie rysowania krawędzi oraz usunięcie siatki zbrojenia za krawędziami
+[UNF] weryfikacja poprawności położenia otworów (względem słupa lub innych otworów)
+[UNF] obliczenia dla słupów krawędziowych i narożnych oraz końca / naroża ściany
+[UNF] linie wymiarowe z oznaczeniem (sx=100mm) widoczne na rysunku
+[UNF] raport rtf zawierający wyniki obliczeń i wyznaczony rozkład zbrojenia
+[BUG] nieprawidłowe położenie punktu oznaczającego „środek ciężkości obwodu kontrolnego” 
+
+
+Punching    wersja 1.0.0.5    (14.10.2020)
+
+[NEW] obliczenia dla słupów krawędziowych i narożnych
+[MOD] linie wymiarowe z oznaczeniem (sx=100mm) widoczne na rysunku
+[FIX] nieprawidłowe położenie punktu oznaczającego „środek ciężkości obwodu kontrolnego” 
+[UNF] weryfikacja poprawności położenia otworów (względem słupa lub innych otworów)
+[UNF] obliczenia w przypadku końca ściany oraz naroża ściany
+[UNF] raport rtf zawierający wyniki obliczeń i wyznaczony rozkład zbrojenia
+
+
+Punching    wersja 1.0.0.6    (22.10.2020)
+
+[NEW] obliczenia w przypadku końca ściany oraz naroża ściany
+[MOD] linie obwodów kontrolnych rysowane tylko poza strefami otworów
+[UNF] tworzenie dwu- i trzyelementowych grup trzpieni zgodnie z typoszeregiem listew  
+[UNF] weryfikacja poprawności położenia otworów (względem słupa lub innych otworów)
+[UNF] raport rtf zawierający wyniki obliczeń i wyznaczony rozkład zbrojenia
+
+
+Punching    wersja 1.0.0.7    (16.11.2020)
+
+[NEW] wybór wersji językowej (słowacka, czeska, polska, angielska, niemiecka) programu
+[NEW] demonstracyjny raport zawierający wyniki obliczeń i wyznaczony rozkład zbrojenia
+[MOD] zapis opcji programu (wersja językowa, motyw graficzny) w rejestrze systemu
+[MOD] wprowadzenia rozróżnienia dla operacji „Zapisz” oraz „Zapisz jako …”
+[MOD] dodanie pola edycyjnego dla wysokości użytecznej płyty
+[MOD] wartość wskaźnika W1 umieszczona w zakładce ‘Summary’
+[MOD] zmiana sposobu wyznaczania długości obwodu u0 w przypadku podpór skrajnych
+[FIX] blokada działania programu w przypadku nieprawidłowej struktury pliku z danymi
+[UNF] brak redukcji długości obwodu u0 w przypadku wystąpienia otworów
+[UNF] tworzenie dwu- i trzyelementowych grup trzpieni zgodnie z typoszeregiem listew  
+[UNF] weryfikacja poprawności położenia otworów (względem słupa lub innych otworów)
+[UNF] zablokowanie możliwości wstawienia otworu w obrysie słupa
+[UNF] zablokowanie możliwości dodania kilku otworów w jednym miejscu
+[UNF] pominięcie prętów zbrojenia w otworach oraz w ich śladzie
+[UNF] po zmianie skalowania widoku do wartości 125% indeksy nachodzą na oznaczenia
+[BUG] nieprawidłowo obliczana wartość wskaźnika w1, spowodowana zamianą osi X-Y.
+
+
+Punching    wersja 1.0.0.8    (12.02.2021)
+
+[FIX] nieprawidłowo obliczana wartość współczynnika w1, spowodowana zamianą osi X-Y.
+[UNF] brak redukcji długości obwodu u0 w przypadku wystąpienia otworów
+[UNF] tworzenie dwu- i trzyelementowych grup trzpieni zgodnie z typoszeregiem listew  
+[UNF] weryfikacja poprawności położenia otworów (względem słupa lub innych otworów)
+[UNF] zablokowanie możliwości wstawienia otworu w obrysie słupa
+[UNF] zablokowanie możliwości dodania kilku otworów w jednym miejscu
+[UNF] pominięcie prętów zbrojenia w otworach oraz w ich śladzie
+[UNF] raport rtf zawierający wyniki obliczeń i wyznaczony rozkład zbrojenia
+[UNF] po zmianie skalowania widoku do wartości 125% indeksy nachodzą na oznaczenia
+
+
+Punching    wersja 1.0.0.9    (18.03.2021)
+
+[NEW] tworzenie dwu- i trzyelementowych grup trzpieni zgodnie z typoszeregiem listew
+[NEW] raport rtf zawierający wyniki obliczeń i wyznaczony rozkład zbrojenia
+[NEW] weryfikacja użytkownika programu zgodnie z podanym kluczem rejestracyjnym
+[FIX] brak redukcji długości obwodu u0 w przypadku wystąpienia otworów
+[FIX] możliwości wstawienia współczynnika do obciążeń dynamicznych
+[FIX] logo oraz dane handlowe firmy KONTAK-SK umieszczone w raporcie
+[MOD] dodatkowe gatunki stali oraz wartości współczynnika kmax
+[MOD] możliwość wyboru manualnego oraz automatycznego doboru listw trzpieni
+[UNF] brak parametrów długości ls,req i ls,prov oraz Asw,req i Asw,prov w podsumowaniu i raporcie
+[UNF] brak rozpisania warunków spełnienia nośności oraz poziomu wytężenia w podsumowaniu i raporcie
+[UNF] weryfikacja poprawności położenia otworów (względem słupa lub innych otworów)
+[UNF] zablokowanie możliwości wstawienia otworu w obrysie słupa
+[UNF] zablokowanie możliwości dodania kilku otworów w jednym miejscu
+[UNF] pominięcie prętów zbrojenia w otworach oraz w ich śladzie
+[UNF] eksport do formatu dxf wyznaczonego rozkładu zbrojenia
+[UNF] po zmianie skalowania widoku do wartości 125% indeksy nachodzą na oznaczenia
+

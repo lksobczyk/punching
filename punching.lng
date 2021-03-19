@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- pl-PL, en-GB, de-DE, sk-SK, cs-CZ, ru-RU -->
+<!-- "&lt;", "&gt;", "&amp;", "&apos;", "&quot;" -->
+
+<translation>
+
+<group id="Items">
+	<str id="Concrete">
+		<pl>Beton</pl>
+		<en>Concrete</en>
+		<de>Beton</de>
+		<sk>Betón</sk>
+		<cs>Beton</cs>
+		<ru>Бетон</ru>
+	</str>
+	<str id="Steel">
+		<pl>Stal</pl>
+		<en>Steel</en>
+		<de>Stahl</de>
+		<sk>Oceľ</sk>
+		<cs>Ocel</cs>
+		<ru>Стали</ru>
+	</str>
+</group>
+
+<group id="StartForm">
+	<str id="StartTitle1">
+		<pl>Kalkulator do doboru</pl>
+		<en>Calculator for selecting</en>
+		<de>Rechner zur Auswahl</de>
+		<sk>Kalkulačka na výber</sk>
+		<cs>Kalkulačka pro výběr</cs>
+	</str>
+	<str id="StartTitle2">
+		<pl>zbrojenia na przebicie</pl>
+		<en>punching reinforcement</en>
+		<de>der Stanzscherbewehrung</de>
+		<sk>šmykovej tŕne</sk>
+		<cs>smykové trny</cs>
+	</str>
+	<str id="UserName">
+		<pl>Nazwa użytkownika</pl>
+		<en>User name</en>
+		<de>Nutzername</de>
+		<sk>Meno používateľa</sk>
+		<cs>Uživatelské jméno</cs>
+	</str>
+	<str id="UserKey">
+		<pl>Klucz rejestracyjny</pl>
+		<en>Registration key</en>
+		<de>Registrierungsschlüssel</de>
+		<sk>Registračný kľúč</sk>
+		<cs>Registrační klíč</cs>
+	</str>
+	<str id="InvalidUserKey">
+		<pl>Klucz rejestracyjny jest nieprawidłowy</pl>
+		<en>Registration key is invalid</en>
+		<de>Der Registrierungsschlüssel ist ungültig</de>
+		<sk>Registračný kľúč je neplatný</sk>
+		<cs>Registrační klíč je neplatný</cs>
+	</str>
+	<str id="Register">
+		<pl>Zarejestruj</pl>
+		<en>Register</en>
+		<de>Registrieren</de>
+		<sk>Registrovať</sk>
+		<cs>Registrovat</cs>
+	</str>
+	<str id="Cancel">
+		<pl>Anuluj</pl>
+		<en>Cancel</en>
+		<de>Abbrechen</de>
+		<sk>Zrušiť</sk>
+		<cs>Zrušit</cs>
+	</str>
+</group>
+
+<group id="MainForm">
+	<str id="MainTitle">
+		<pl>Zbrojenie na przebicie</pl>
+		<en>Punching/Shear reinforcement</en>
+		<de>Duebelleiste</de>
+		<sk>Šmykové tŕne</sk>
+		<cs>Smykové trny</cs>
+	</str>
+	<str id="Calculate">
+		<pl>Oblicz</pl>
+		<en>Calculate</en>
+		<de>Kalkulieren</de>
+		<sk>Vypočítaj</sk>
+		<cs>Vypočítej</cs>
+	</str>
+	<str id="PlanView">
+		<pl>Rzut</pl>
+		<en>Plan view</en>
+		<de>Grundriss</de>
+		<sk>Pôdorys</sk>
+		<cs>Půdorys</cs>
+	</str>
+	<str id="SectionView">
+		<pl>Przekrój</pl>
+		<en>Section view</en>
+		<de>Teilansicht</de>
+		<sk>Pohľad v reze</sk>
+		<cs>Řez</cs>
+	</str>
+	<str id="ThreeView">
+		<pl>Widok 3D</pl>
+		<en>3D-view</en>
+		<de>3D-Ansicht</de>
+		<sk>3D pohľad</sk>
+		<cs>3D pohled</cs>
+	</str>
+	<str id="Summary">
+		<pl>Podsumowanie</pl>
+		<en>Summary</en>
+		<de>Zusammenfassung</de>
+		<sk>Zhrnutie</sk>
+		<cs>Souhrn</cs>
+	</str>
+	<str id="Report">
+		<pl>Raport</pl>
+		<en>Report</en>
+		<de>Bericht</de>
+		<sk>Správa</sk>
+		<cs>Zpráva</cs>
+	</str>
+	<str id="LoadData">
+		<pl>Wczytaj dane z pliku</pl>
+		<en>Load data from file</en>
+		<de>Aus Datei laden</de>
+		<sk>Načítať údaje zo súboru</sk>
+		<cs>Načíst data ze souboru</cs>
+	</str>
+	<str id="SaveData">
+		<pl>Zapisz dane do pliku</pl>
+		<en>Save data to file</en>
+		<de>Speichern in Datei</de>
+		<sk>Uložiť údaje do súboru</sk>
+		<cs>Uložit data do souboru</cs>
+	</str>
+	<str id="PcrFiles">
+		<pl>Pliki PCR</pl>
+		<en>PCR Files</en>
+		<de>PCR Dateien</de>
+		<sk>Súbory PCR</sk>
+		<cs>Soubory PCR</cs>
+	</str>
+	<str id="AllFiles">
+		<pl>Wszystkie pliki</pl>
+		<en>All Files</en>
+		<de>Alle Dateien</de>
+		<sk>Všetky súbory</sk>
+		<cs>Všechny soubory</cs>
+	</str>
+</group>
+
+<group id="GParamsForm">
+	<str id="MainTitle">
+		<pl>Parametry ogólne</pl>
+		<en>General parameters</en>
+		<de>Grundeinstellungen</de>
+		<sk>Základné parametre</sk>
+		<cs>Základní parametry</cs>
+	</str>
+	<str id="NormParams">
+		<pl>Parametry normowe</pl>
+		<en>Norm parameters</en>
+		<de>Normen Parameter</de>
+		<sk>Normové parametre</sk>
+		<cs>Volba součinitelů</cs>
+	</str>
+	<str id="BetaMethods">
+		<pl>Wybór współczynika beta</pl>
+		<en>Choice of beta coefficient</en>
+		<de>Wahl der Koeffizienten</de>
+		<sk>Voľba súčiniteľov beta</sk>
+		<cs>Volba součinitele beta</cs>
+	</str>
+	<str id="NormValue">
+		<pl>Wartość stała</pl>
+		<en>Constant value</en>
+		<de>Konstanter Wert</de>
+		<sk>Konštanta</sk>
+		<cs>Konstantní</cs>
+	</str>
+	<str id="ComplexFormula">
+		<pl>Wartość obliczona</pl>
+		<en>Calculated value</en>
+		<de>Berechneter Wert</de>
+		<sk>Vypočítaná hodnota</sk>
+		<cs>Vypočítaná hodnota</cs>
+	</str>
+	<str id="UserDefined">
+		<pl>Wartość użytkownika</pl>
+		<en>User defined</en>
+		<de>Benutzerdefiniert</de>
+		<sk>Definované užívateľom</sk>
+		<cs>Definovaná uživatelem</cs>
+	</str>
+	<str id="MeshView">
+		<pl>Wyświetl siatkę zbrojenia</pl>
+		<en>Show reinforcement mesh</en>
+		<de>Bewehrungsmatte anzeigen</de>
+		<sk>Zobraziť plošnú výstuž</sk>
+		<cs>Zobrazit plošnou výztuž</cs>
+	</str>
+	<str id="MomentsView">
+		<pl>Wyświetl wektory momentów</pl>
+		<en>Show vectors of moments</en>
+		<de>Drehmomentsvektoren anzeigen</de>
+		<sk>Zobraziť vektory ohybových momentov</sk>
+		<cs>Zobrazit vektory ohybových momentů</cs>
+	</str>
+	<str id="DimLineView">
+		<pl>Wyświetl linie wymiarowe</pl>
+		<en>Show dimension lines</en>
+		<de>Bemaßungslinien anzeigen</de>
+		<sk>Zobraziť kótovacie čiary</sk>
+		<cs>Zobrazit kótovací čáry</cs>
+	</str>
+	<str id="AutoKBDRail">
+		<pl>Automatyczny dobór listw KBD</pl>
+		<en>Automatic matching of KBD bars</en>
+		<de>Automatischer Abgleich von KBD-Balken</de>
+		<sk>Automatické priraďovanie kotvy KBD</sk>
+		<cs>Automatické přiřazování kotvy KBD</cs>
+	</str>
+	<str id="XRebarCenter">
+		<pl>pręt pionowy w środku słupa</pl>
+		<en>????</en>
+		<de>Vertikale Stange in der Mitte Saeule</de>
+		<sk>????</sk>
+		<cs>svislá lišta ve středu tyče</cs>
+	</str>
+	<str id="YRebarCenter">
+		<pl>pręt poziomy w środku słupa</pl>
+		<en>????</en>
+		<de>Horizontaler Balken in der Mitte der Saeule</de>
+		<sk>????</sk>
+		<cs>vodorovná tyč ve středu tyče</cs>
+	</str>
+	<str id="Save">
+		<pl>Zapisz</pl>
+		<en>Save</en>
+		<de>Speichern</de>
+		<sk>Ulož</sk>
+		<cs>Uložit</cs>
+	</str>
+	<str id="Cancel">
+		<pl>Anuluj</pl>
+		<en>Cancel</en>
+		<de>Abbrechen</de>
+		<sk>Zrušiť</sk>
+		<cs>Zrušit</cs>
+	</str>
+</group>
+
+<group id="AboutForm">
+	<str id="MainTitle">
+		<pl>O programie</pl>
+		<en>About</en>
+		<de>Info</de>
+		<sk>O programe</sk>
+		<cs>O programu</cs>
+	</str>
+</group>
+
+<group id="MainMenu">
+	<str id="File">
+		<pl>Plik</pl>
+		<en>File</en>
+		<de>Datei</de>
+		<sk>Súbor</sk>
+		<cs>Soubor</cs>
+	</str>
+	<str id="New">
+		<pl>Nowy</pl>
+		<en>New</en>
+		<de>Neu</de>
+		<sk>Nový</sk>
+		<cs>Nový</cs>
+	</str>
+	<str id="Open">
+		<pl>Otwórz</pl>
+		<en>Open</en>
+		<de>Oeffnen</de>
+		<sk>Otvor</sk>
+		<cs>Otevřít</cs>
+	</str>
+	<str id="Save">
+		<pl>Zapisz</pl>
+		<en>Save</en>
+		<de>Speichern</de>
+		<sk>Ulož</sk>
+		<cs>Uložit</cs>
+	</str>
+	<str id="SaveAs">
+		<pl>Zapisz jako ...</pl>
+		<en>Save as ...</en>
+		<de>Speichern unter ...</de>
+		<sk>Ulož ako ...</sk>
+		<cs>Uložit jako ...</cs>
+	</str>
+	<str id="Exit">
+		<pl>Wyjście</pl>
+		<en>Exit</en>
+		<de>Beenden</de>
+		<sk>Zavrieť</sk>
+		<cs>Zavřít</cs>
+	</str>
+	<str id="Action">
+		<pl>Akcje</pl>
+		<en>Actions</en>
+		<de>Ausfuehren</de>
+		<sk>Akcia</sk>
+		<cs>Akce</cs>
+	</str>
+	<str id="Calculate">
+		<pl>Oblicz</pl>
+		<en>Calculate</en>
+		<de>Kalkulieren</de>
+		<sk>Vypočítaj</sk>
+		<cs>Vypočítej</cs>
+	</str>
+	<str id="DxfExport">
+		<pl>DXF Export</pl>
+		<en>DXF Export</en>
+		<de>DXF Export</de>
+		<sk>DXF Export</sk>
+		<cs>DXF Export</cs>
+	</str>
+	<str id="RtfExport">
+		<pl>RTF Export</pl>
+		<en>RTF Export</en>
+		<de>RTF Export</de>
+		<sk>RTF Export</sk>
+		<cs>RTF Export</cs>
+	</str>
+	<str id="Settings">
+		<pl>Ustawienia</pl>
+		<en>Settings</en>
+		<de>Einstellungen</de>
+		<sk>Nastavenie</sk>
+		<cs>Nastavení</cs>
+	</str>
+	<str id="Parameters">
+		<pl>Parametry ogólne</pl>
+		<en>General parameters</en>
+		<de>Grundeinstellungen</de>
+		<sk>Základné parametre</sk>
+		<cs>Základní parametry</cs>
+	</str>
+	<str id="Language">
+		<pl>Zmiana języka</pl>
+		<en>Language change</en>
+		<de>Sprache aendern</de>
+		<sk>Zmena jazyka</sk>
+		<cs>Změna jazyka</cs>
+	</str>
+	<str id="Theme">
+		<pl>Zmiana motywu</pl>
+		<en>Theme change</en>
+		<de>Hintergrund aendern</de>
+		<sk>Zmena motívu</sk>
+		<cs>Změna motivu</cs>
+	</str>
+	<str id="Help">
+		<pl>Pomoc</pl>
+		<en>Help</en>
+		<de>Hilfe</de>
+		<sk>Pomoc</sk>
+		<cs>Pomoc</cs>
+	</str>
+	<str id="About">
+		<pl>O programie</pl>
+		<en>About</en>
+		<de>Info</de>
+		<sk>O programe</sk>
+		<cs>O programu</cs>
+	</str>
+</group>
+
+<group id="PopupMenu">
+	<str id="Undo">
+		<pl>Cofnij</pl>
+		<en>Undo</en>
+		<de>Rueckgaengig</de>
+		<sk>Späť</sk>
+		<cs>Zpět</cs>
+	</str>
+	<str id="Cut">
+		<pl>Wytnij</pl>
+		<en>Cut</en>
+		<de>Ausschneiden</de>
+		<sk>Vystrihnúť</sk>
+		<cs>Vystřihnout</cs>
+	</str>
+	<str id="Copy">
+		<pl>Kopiuj</pl>
+		<en>Copy</en>
+		<de>Kopieren</de>
+		<sk>Kopírovať</sk>
+		<cs>Kopírovat</cs>
+	</str>
+	<str id="Paste">
+		<pl>Wklej</pl>
+		<en>Paste</en>
+		<de>Einfuegen</de>
+		<sk>Vložiť</sk>
+		<cs>Vložit</cs>
+	</str>
+	<str id="Save">
+		<pl>Zapisz</pl>
+		<en>Save</en>
+		<de>Speichern</de>
+		<sk>Ulož</sk>
+		<cs>Uložit</cs>
+	</str>
+	<str id="SelectAll">
+		<pl>Zaznacz wszystko</pl>
+		<en>Select all</en>
+		<de>Alles auswaehlen</de>
+		<sk>Vybrať všetko</sk>
+		<cs>Vybrat vše</cs>
+	</str>
+</group>
+
+<group id="VariantFrame">
+	<str id="SlabType">
+		<pl>Typ płyty</pl>
+		<en>Type of slab</en>
+		<de>Plattentyp</de>
+		<sk>Typ dosky</sk>
+		<cs>Typ desky</cs>
+	</str>
+	<str id="InsituSlab">
+		<pl>Płyta stropowa</pl>
+		<en>In-situ slab</en>
+		<de>Ortbeton Platte</de>
+		<sk>Monolitická doska</sk>
+		<cs>Monolitická deska</cs>
+	</str>
+	<str id="FoundationSlab">
+		<pl>Płyta fundamentowa</pl>
+		<en>Foundation slab</en>
+		<de>Fundamentplatte</de>
+		<sk>Základová doska</sk>
+		<cs>Základová deska</cs>
+	</str>
+	<str id="FiligreeSlab">
+		<pl>Płyta filigran</pl>
+		<en>Filigree slab</en>
+		<de>Filigrane Platte</de>
+		<sk>Filigránová doska</sk>
+		<cs>Filigránová deska</cs>
+	</str>
+	<str id="ColumnType">
+		<pl>Rodzaj słupa</pl>
+		<en>Column type</en>
+		<de>Saeulentyp</de>
+		<sk>Typ stĺpa</sk>
+		<cs>Typ stĺpa</cs>
+	</str>
+	<str id="Edges">
+		<pl>Krawędzie</pl>
+		<en>Edges</en>
+		<de>Ecken</de>
+		<sk>Hrany</sk>
+		<cs>Hrany</cs>
+	</str>
+	<str id="RectColumn">
+		<pl>Słup prostokątny</pl>
+		<en>Rectangular column</en>
+		<de>Rechteckige Saeule</de>
+		<sk>Obdĺžnikový stĺp</sk>
+		<cs>Obdélníkový sloup</cs>
+	</str>
+	<str id="CircColumn">
+		<pl>Słup okrągły</pl>
+		<en>Circular column</en>
+		<de>Runde Saeule</de>
+		<sk>Kruhový stĺp</sk>
+		<cs>Kruhový sloup</cs>
+	</str>
+	<str id="EndWall">
+		<pl>Koniec ściany</pl>
+		<en>End of wall</en>
+		<de>Wandende</de>
+		<sk>Koniec steny</sk>
+		<cs>Konec stěny</cs>
+	</str>
+	<str id="CornerWall">
+		<pl>Naroże ściany</pl>
+		<en>Corner of wall</en>
+		<de>Wandecke</de>
+		<sk>Roh steny</sk>
+		<cs>Nároží</cs>
+	</str>
+	<str id="LeftEdge">
+		<pl>Lewa krawędź</pl>
+		<en>Left edge</en>
+		<de>Linke Ecke</de>
+		<sk>Ľavý okraj</sk>
+		<cs>Levý okraj</cs>
+	</str>
+	<str id="RightEdge">
+		<pl>Prawa krawędź</pl>
+		<en>Right edge</en>
+		<de>Rechte Ecke</de>
+		<sk>Pravý okraj</sk>
+		<cs>Pravý okraj</cs>
+	</str>
+	<str id="TopEdge">
+		<pl>Górna krawędź</pl>
+		<en>Top edge</en>
+		<de>Oberkante</de>
+		<sk>Horný okraj</sk>
+		<cs>Horní okraj</cs>
+	</str>
+	<str id="BottomEdge">
+		<pl>Dolna krawędź</pl>
+		<en>Bottom edge</en>
+		<de>Unterkante</de>
+		<sk>Spodný okraj</sk>
+		<cs>Spodní okraj</cs>
+	</str>
+	<str id="EdgeDistance">
+		<pl>Odsunięcie krawędzi</pl>
+		<en>Edge distance</en>
+		<de>Kantenabstand</de>
+		<sk>Vzdialenosť od okraja</sk>
+		<cs>Vzdálenost od okraje</cs>
+	</str>
+</group>
+
+<group id="MaterialFrame">
+	<str id="Materials">
+		<pl>Materiały</pl>
+		<en>Materials</en>
+		<de>Material</de>
+		<sk>Materiály</sk>
+		<cs>Materiály</cs>
+	</str>
+	<str id="Concrete">
+		<pl>Beton</pl>
+		<en>Concrete</en>
+		<de>Beton</de>
+		<sk>Betón</sk>
+		<cs>Beton</cs>
+	</str>
+	<str id="ConcreteQuality">
+		<pl>Klasa betonu</pl>
+		<en>Concrete quality</en>
+		<de>Betonguete</de>
+		<sk>Pevnostná trieda betónu</sk>
+		<cs>Pevnostní třída betonu</cs>
+	</str>
+	<str id="Steel">
+		<pl>Stal</pl>
+		<en>Steel</en>
+		<de>Stahl</de>
+		<sk>Oceľ</sk>
+		<cs>Ocel</cs>
+	</str>
+	<str id="SteelQuality">
+		<pl>Klasa stali</pl>
+		<en>Steel quality</en>
+		<de>Stahlgüte</de>
+		<sk>Trieda ocele</sk>
+		<cs>Třída oceli</cs>
+	</str>
+</group>
+
+<group id="GeometryFrame">
+	<str id="Geometry">
+		<pl>Geometria</pl>
+		<en>Geometry</en>
+		<de>Geometrie</de>
+		<sk>Geometria</sk>
+		<cs>Geometrie</cs>
+	</str>
+	<str id="ColumnLength">
+		<pl>Długość słupa</pl>
+		<en>Column length</en>
+		<de>Saeulenlaenge</de>
+		<sk>Dĺžka stĺpa</sk>
+		<cs>Výška průřezu sloupu</cs>
+	</str>
+	<str id="ColumnWidth">
+		<pl>Szerokość słupa</pl>
+		<en>Column width</en>
+		<de>Saeulenbreite</de>
+		<sk>Šírka stĺpa</sk>
+		<cs>Šířka průřezu sloupu</cs>
+	</str>
+	<str id="ColumnDiameter">
+		<pl>Średnica słupa</pl>
+		<en>Column diameter</en>
+		<de>Saeulendurchmesser</de>
+		<sk>Priemer stĺpa</sk>
+		<cs>Průměr sloupu</cs>
+	</str>
+	<str id="WallThickness">
+		<pl>Grubość ściany</pl>
+		<en>Wall thickness</en>
+		<de>Wanddicke</de>
+		<sk>Hrúbka steny</sk>
+		<cs>Tloušťka stěny</cs>
+	</str>
+	<str id="SlabThickness">
+		<pl>Grubość płyty</pl>
+		<en>Slab thickness</en>
+		<de>Plattendicke</de>
+		<sk>Hrúbka dosky</sk>
+		<cs>Tloušťka desky</cs>
+	</str>
+	<str id="UpperCover">
+		<pl>Otulina górna</pl>
+		<en>Concrete reinforcement cover - top</en>
+		<de>Betondeckung oben</de>
+		<sk>Horné krytie výstuže</sk>
+		<cs>Krytí horní</cs>
+	</str>
+	<str id="LowerCover">
+		<pl>Otulina dolna</pl>
+		<en>Concrete reinforcement cover - bottom</en>
+		<de>Betondeckung unten</de>
+		<sk>Dolné krytie výstuže</sk>
+		<cs>Krytí dolní</cs>
+	</str>
+</group>
+
+<group id="RebarsFrame">
+	<str id="Rebars">
+		<pl>Zbrojenie</pl>
+		<en>Reinforcement</en>
+		<de>Bewehrung</de>
+		<sk>Výstuž</sk>
+		<cs>Výztuž</cs>
+	</str>
+	<str id="Spacing">
+		<pl>Rozstaw zbrojenia</pl>
+		<en>Reinforcement spacing</en>
+		<de>Bewehrungsabstand</de>
+		<sk>Rozostup výstuže</sk>
+		<cs>Rozteč vložek</cs>
+	</str>
+	<str id="Section">
+		<pl>Poziom zbrojenia</pl>
+		<en>Reinforcement area</en>
+		<de>Bewehrungsverstaerkung</de>
+		<sk>Plocha výstuže</sk>
+		<cs>Plocha výztuže</cs>
+	</str>
+	<str id="Grade">
+		<pl>Stopień zbrojenia</pl>
+		<en>Reinforcemet ratio</en>
+		<de>Grad der Verstaerkung</de>
+		<sk>Stupeň vystuženia</sk>
+		<cs>Stupeň vyztužení</cs>
+	</str>
+</group>
+
+<group id="LoadFrame">
+	<str id="Loading">
+		<pl>Obciążenie</pl>
+		<en>Load</en>
+		<de>Laststufe</de>
+		<sk>Zaťaženie</sk>
+		<cs>Zatížení</cs>
+	</str>
+	<str id="Moment">
+		<pl>Moment</pl>
+		<en>Moment</en>
+		<de>Drehmoment</de>
+		<sk>Ohybový moment</sk>
+		<cs>Ohybový moment</cs>
+	</str>
+	<str id="ShearLoad">
+		<pl>Siła przebijająca</pl>
+		<en>Punching force</en>
+		<de>Durchdringende Kraft</de>
+		<sk>Sila (všeobecne)</sk>
+		<cs>Normálová síla</cs>
+	</str>
+	<str id="Factor">
+		<pl>Obciążenie dynamiczne</pl>
+		<en>Dynamic load</en>
+		<de>Dynamische Kraft</de>
+		<sk>Dynamické zaťaženie</sk>
+		<cs>Dynamické zatížení</cs>
+	</str>
+</group>
+
+<group id="StudsFrame">
+	<str id="StudDiameters">
+		<pl>Średnice trzpieni KBD</pl>
+		<en>Stud diameters KBD</en>
+		<de>Stabdurchmesser KBD</de>
+		<sk>Priemer šmykovej výstuže KBD</sk>
+		<cs>Průměr smykové výztuže KBD</cs>
+	</str>
+</group>
+
+<group id="OpeningFrame">
+	<str id="Openings">
+		<pl>Otwory</pl>
+		<en>Openings</en>
+		<de>Oeffnungen</de>
+		<sk>Otvory v doske</sk>
+		<cs>Prostupy deskou</cs>
+	</str>
+	<str id="Location">
+		<pl>Położenie</pl>
+		<en>Location</en>
+		<de>Lage</de>
+		<sk>Poloha</sk>
+		<cs>Umístění</cs>
+	</str>
+	<str id="Length">
+		<pl>Długość [mm]</pl>
+		<en>Length [mm]</en>
+		<de>Laenge [mm]</de>
+		<sk>Dĺžka [mm]</sk>
+		<cs>Délka [mm]</cs>
+	</str>
+	<str id="Width">
+		<pl>Szerokość [mm]</pl>
+		<en>Width [mm]</en>
+		<de>Breite [mm]</de>
+		<sk>Šírka  [mm]</sk>
+		<cs>Šířka  [mm]</cs>
+	</str>
+	<str id="Shape">
+		<pl>Kształt</pl>
+		<en>Shape</en>
+		<de>Form</de>
+		<sk>Tvar</sk>
+		<cs>Tvar</cs>
+	</str>
+	<str id="OpeningLocation">
+		<pl>Położenie otworu</pl>
+		<en>Opening location</en>
+		<de>Oeffnungslage</de>
+		<sk>Poloha otvoru</sk>
+		<cs>Umístění otvoru</cs>
+	</str>
+	<str id="OpeningLength">
+		<pl>Długość otworu</pl>
+		<en>Opening length</en>
+		<de>Oeffnungslaenge</de>
+		<sk>Dĺžka otvoru</sk>
+		<cs>Délka otvoru</cs>
+	</str>
+	<str id="OpeningWidth">
+		<pl>Szerokość otworu</pl>
+		<en>Opening width</en>
+		<de>Oeffnungsbreite</de>
+		<sk>Šírka otvoru</sk>
+		<cs>Šířka otvoru</cs>
+	</str>
+	<str id="OpeningShape">
+		<pl>Kształt otworu</pl>
+		<en>Opening shape</en>
+		<de>Oeffnungsform</de>
+		<sk>Tvar otvoru</sk>
+		<cs>Tvar otvoru</cs>
+	</str>
+	<str id="AddRectangular">
+		<pl>Dodaj otwór prostokątny</pl>
+		<en>Add rectangular opening</en>
+		<de>Rechteckige Oeffnung hinzufuegen</de>
+		<sk>Pridaj obdĺžnikový otvor</sk>
+		<cs>Přidej obdélníkový prostup</cs>
+	</str>
+	<str id="AddCircular">
+		<pl>Dodaj otwór okrągły</pl>
+		<en>Add circular opening</en>
+		<de>Runde Oeffnung hinzufuegen</de>
+		<sk>Pridaj kruhový otvor</sk>
+		<cs>Přidej kruhový prostup</cs>
+	</str>
+	<str id="DeleteSelected">
+		<pl>Usuń wybrany otwór</pl>
+		<en>Delete selected opening</en>
+		<de>Ausgewaehlte Oeffnungen loeschen</de>
+		<sk>Odstrániť vybraný otvor</sk>
+		<cs>Smazat vybraný prostup</cs>
+	</str>
+	<str id="DeleteAll">
+		<pl>Usuń wszystkie otwory</pl>
+		<en>Delete all openings</en>
+		<de>Alle Oeffnungen loeschen</de>
+		<sk>Odstrániť všetky otvory</sk>
+		<cs>Smaž všechny prostupy</cs>
+	</str>
+	<str id="Dimensioning">
+		<pl>Wymiarowanie otworu</pl>
+		<en>Opening dimensioning</en>
+		<de>Oeffnung messen</de>
+		<sk>Kótovanie otvoru</sk>
+		<cs>Kótovaní prostupu</cs>
+	</str>
+</group>
+
+<group id="Report">
+	<str id="Title">
+		<pl>Raport z obliczeń – dobór trzpieni KBD</pl>
+		<en>Calculation results - selection of KBD</en>
+		<de>Berechnungsbericht - Auswahl KBD</de>
+		<sk>Výsledky výpočtu - výber tŕňov KBD</sk>
+		<cs>Výsledky výpočtu - výběr KBD</cs>
+	</str>
+	<str id="Norm">
+		<pl>Podstawa obliczeń</pl>
+		<en>Calculation basis</en>
+		<de>Berechnungsbasis</de>
+		<sk>Predpoklady výpočtu</sk>
+		<cs>Předpoklady výpočtu</cs>
+	</str>
+	<str id="Version">
+		<pl>Nazwa i wersja programu</pl>
+		<en>Name and version of the program</en>
+		<de>Programmname und Version</de>
+		<sk>Názov a verzia programu</sk>
+		<cs>Název a verze programu</cs>
+	</str>
+	<str id="Date">
+		<pl>Data obliczeń</pl>
+		<en>Date of calculation</en>
+		<de>Berechnungsdatum</de>
+		<sk>Dátum výpočtu</sk>
+		<cs>Datum výpočtu</cs>
+	</str>
+
+	<str id="Geometry">
+		<pl>DANE GEOMETRYCZNE</pl>
+		<en>GEOMETRIC DATA</en>
+		<de>GEOMETRISCHE DATEN</de>
+		<sk>GEOMETRICKÉ ÚDAJE</sk>
+		<cs>GEOMETRICKÉ ÚDAJE</cs>
+	</str>
+	<str id="Support">
+		<pl>Rodzaj podpory</pl>
+		<en>Type of support</en>
+		<de>Unterstuetzungsart</de>
+		<sk>Typ podpory</sk>
+		<cs>Typ podpory</cs>
+	</str>
+	<str id="InsideType">
+		<pl>wewnętrzna</pl>
+		<en>Inside</en>
+		<de>Innerhalb</de>
+		<sk>Vo vnútri</sk>
+		<cs>střední</cs>
+	</str>
+	<str id="EdgeType">
+		<pl>krawędziowa</pl>
+		<en>Edge</en>
+		<de>Kante</de>
+		<sk>Hrana</sk>
+		<cs>krajní</cs>
+	</str>
+	<str id="CornerType">
+		<pl>narożna</pl>
+		<en>Corner </en>
+		<de>Ecke</de>
+		<sk>Roh</sk>
+		<cs>rohová</cs>
+	</str>
+	<str id="EndWallType">
+		<pl>koniec ściany</pl>
+		<en>End of wall</en>
+		<de>Wandende</de>
+		<sk>Koniec steny</sk>
+		<cs>konec stěny</cs>
+	</str>
+	<str id="CornerWallType">
+		<pl>naroże ściany</pl>
+		<en>Corner of wall</en>
+		<de>Wandecke</de>
+		<sk>Roh steny</sk>
+		<cs>nároží</cs>
+	</str>
+	<str id="ColumnLength">
+		<pl>Długość słupa</pl>
+		<en>Column length</en>
+		<de>Saeulenlaenge</de>
+		<sk>Dĺžka stĺpa</sk>
+		<cs>Výška průřezu sloupu</cs>
+	</str>
+	<str id="ColumnWidth">
+		<pl>Szerokość słupa</pl>
+		<en>Column width</en>
+		<de>Saeulenbreite</de>
+		<sk>Šírka stĺpa</sk>
+		<cs>Šířka průřezu sloupu</cs>
+	</str>
+	<str id="ColumnDiameter">
+		<pl>Średnica słupa</pl>
+		<en>Column diameter</en>
+		<de>Saeulendruchmesser</de>
+		<sk>Priemer stĺpa</sk>
+		<cs>Průměr sloupu</cs>
+	</str>
+	<str id="WallThickness">
+		<pl>Grubość ściany</pl>
+		<en>Wall thickness</en>
+		<de>Wanddicke</de>
+		<sk>Hrúbka steny</sk>
+		<cs>Tloušťka stěny</cs>
+	</str>
+	<str id="Openings">
+		<pl>Otwory</pl>
+		<en>Openings</en>
+		<de>Oeffnungen</de>
+		<sk>Otvory</sk>
+		<cs>Prostupy</cs>
+	</str>
+	<str id="EdgeDistance">
+		<pl>Przewieszenie</pl>
+		<en>Edge offset</en>
+		<de>Kantenversatz</de>
+		<sk>Posunutie okraja</sk>
+		<cs>Závěsný</cs>
+	</str>
+	<str id="SlabThickness">
+		<pl>Grubość płyty</pl>
+		<en>Slab thickness</en>
+		<de>Plattendicke</de>
+		<sk>Hrúbka dosky</sk>
+		<cs>Tloušťka desky</cs>
+	</str>
+	<str id="EffectiveHeight">
+		<pl>Wysokość użyteczna płyty</pl>
+		<en>Effective height of slab</en>
+		<de>Statische Nutzhöhe</de>
+		<sk>Účinná výška dosky</sk>
+		<cs>Účinná výška desky</cs>
+	</str>
+	<str id="UpperCover">
+		<pl>Otulina górna</pl>
+		<en>Concrete reinforcement cover - top</en>
+		<de>Betondeckung oben</de>
+		<sk>Horné krytie výstuže</sk>
+		<cs>Krytí horní</cs>
+	</str>
+	<str id="LowerCover">
+		<pl>Otulina dolna</pl>
+		<en>Concrete reinforcement cover - bottom</en>
+		<de>Betondeckung unten</de>
+		<sk>Dolné krytie výstuže</sk>
+		<cs>Krytí dolní</cs>
+	</str>
+
+	<str id="Materials">
+		<pl>MATERIAŁY</pl>
+		<en>MATERIALS</en>
+		<de>MATERIALIEN</de>
+		<sk>MATERIÁLY</sk>
+		<cs>MATERIÁLY</cs>
+	</str>
+	<str id="ConcreteClass">
+		<pl>Klasa betonu</pl>
+		<en>Concrete class</en>
+		<de>Betonguete</de>
+		<sk>Pevnostná trieda betónu</sk>
+		<cs>Pevnostní třída betonu</cs>
+	</str>
+	<str id="SteelClass">
+		<pl>Gatunek stali zbrojeniowej</pl>
+		<en>Reinforcement class</en>
+		<de>Bewehrungsstahlsorte</de>
+		<sk>Trieda betonárskej ocele</sk>
+		<cs>Třída betonárske oceli</cs>
+	</str>
+	<str id="RebarsGrade">
+		<pl>Stopień zbrojenia podłużnego</pl>
+		<en>Longitudinal reinforcement ratio</en>
+		<de>Grad des Bewehrungsstahls</de>
+		<sk>Stupeň vystuženia pozdĺžnej výstuže</sk>
+		<cs>Stupeň vyztužení</cs>
+	</str>
+	<str id="StudDiameters">
+		<pl>Średnica zbrojenia na przebicie</pl>
+		<en>Diameter of punching reinforcement</en>
+		<de>Durchmesser der</de>
+		<sk>Priemer výstuže na pretlačenie</sk>
+		<cs>Průměr výztuže na protlačení</cs>
+	</str>
+
+	<str id="Loads">
+		<pl>OBCIĄŻENIA</pl>
+		<en>LOADS</en>
+		<de>BELASTUNGEN</de>
+		<sk>ZAŤAŽENIA</sk>
+		<cs>ZATÍŽENÍ</cs>
+	</str>
+	<str id="ShearLoad">
+		<pl>Siła przebijająca</pl>
+		<en>Force</en>
+		<de>Durchdringende Kraft</de>
+		<sk>Sila (všeobecne)</sk>
+		<cs>Protlačující síla</cs>
+	</str>
+	<str id="Moment">
+		<pl>Moment niezrównoważony</pl>
+		<en>Moment in the axis</en>
+		<de>Unausgeglichener Moment</de>
+		<sk>Pôsobiaci moment v osi</sk>
+		<cs>Nerovnovážný moment</cs>
+	</str>
+	<str id="BetaValue">
+		<pl>Współczynnik</pl>
+		<en>Coefficient</en>
+		<de>Faktor</de>
+		<sk>Koeficient</sk>
+		<cs>Součinitel</cs>
+	</str>
+	<str id="W1Value">
+		<pl>Współczynnik</pl>
+		<en>Coefficient</en>
+		<de>Faktor</de>
+		<sk>Koeficient</sk>
+		<cs>Součinitel</cs>
+	</str>
+	<str id="NuEdValue">
+		<pl>Naprężenie styczne</pl>
+		<en>Shear stress</en>
+		<de>Beruehrungsspannung</de>
+		<sk>Šmykové napätie</sk>
+		<cs>Smykové napětí</cs>
+	</str>
+
+	<str id="Results">
+		<pl>WYNIKI</pl>
+		<en>RESULTS</en>
+		<de>ERGEBNISSE</de>
+		<sk>VÝSLEDKY</sk>
+		<cs>VÝSLEDKY</cs>
+	</str>
+	<str id="U0Value">
+		<pl>Najkrótszy obwód kontrolny</pl>
+		<en>Shortest control perimeter</en>
+		<de>Der kürzeste Steuerkreis</de>
+		<sk>Najkratší kontrolný obvod</sk>
+		<cs>Nejkratší kontrolovaný obvod</cs>
+	</str>
+	<str id="UcrtValue">
+		<pl>Podstawowy obwód kontrolny</pl>
+		<en>Basic control perimeter</en>
+		<de>Grundlegende Steuerschaltung</de>
+		<sk>Základný kontrolný obvod</sk>
+		<cs>Základní kontrolovaný obvod</cs>
+	</str>
+	<str id="KValue">
+		<pl>Współczynnik</pl>
+		<en>Coefficient</en>
+		<de>Faktor</de>
+		<sk>Koeficient</sk>
+		<cs>Součinitel</cs>
+	</str>
+	<str id="CRdcValue">
+		<pl>Współczynnik</pl>
+		<en>Coefficient</en>
+		<de>Faktor</de>
+		<sk>Koeficient</sk>
+		<cs>Součinitel</cs>
+	</str>
+	<str id="NuminValue">
+		<pl>Naprężenie minimalne</pl>
+		<en>Value</en>
+		<de>Minimaler Stress</de>
+		<sk>Hodnota</sk>
+		<cs>Hodnota</cs>
+	</str>
+	<str id="NuRdmaxValue">
+		<pl>Naprężenie maksymalne</pl>
+		<en>Maximum punching shear resistance</en>
+		<de>Maximale Belastung</de>
+		<sk>Maximálna šmyková odolnosť na pretlačenie</sk>
+		<cs>Maximální stres</cs>
+	</str>
+	<str id="NuRdcValue">
+		<pl>Naprężenie graniczne</pl>
+		<en>Punching shear resistance of a slab without punching shear reinforcement</en>
+		<de>Stress begrenzen</de>
+		<sk>Šmyková odolnosť pri pretlačení dosky bez šmykovej výstuže</sk>
+		<cs>Omezte stres</cs>
+	</str>
+	<str id="UoutValue">
+		<pl>Zewnętrzny obwód kontrolny</pl>
+		<en>Control perimeter</en>
+		<de>Externer Steuerkreis</de>
+		<sk>Kontrolný obvod </sk>
+		<cs>Nejvzdálenější kontrolovaný obvod</cs>
+	</str>
+	<str id="RoutValue">
+		<pl>Zasięg zbrojenia na przebicie</pl>
+		<en>Range of reinforcement - punching</en>
+		<de>Verstärkungsbereich zum Stanzen</de>
+		<sk>Rozsah vystuženia na pretlačenie</sk>
+		<cs>Rozsah výztuže na protlačení</cs>
+	</str>
+	<str id="AswValue">
+		<pl>Pole zbrojenia na przebicie</pl>
+		<en>Area of one perimeter of shear reinforcement</en>
+		<de>Stanzverstärkungsbereich</de>
+		<sk>Plocha jedného obvodu šmykovej výstuže</sk>
+		<cs>Plocha výztuže na protlačení</cs>
+	</str>
+	<str id="LsreqLsprov">
+		<pl>lsreq / lsprov</pl>
+		<en>lsreq / lsprov</en>
+		<de>lsreq / lsprov</de>
+		<sk>lsreq / lsprov</sk>
+		<cs>lsreq / lsprov</cs>
+	</str>
+	<str id="CircuitsCount">
+		<pl>Liczba obwodów na przebicie</pl>
+		<en>Number of control perimeters - punching</en>
+		<de>Anzahl der Stromkreise pro Reifenpanne</de>
+		<sk>Počet kontrolných obvodov na pretlačenie</sk>
+		<cs>Počet obvodů na protlačení</cs>
+	</str>
+	<str id="NumberStudRequired">
+		<pl>Wymagana liczba trzpieni KBD</pl>
+		<en>Number of KBD stud required</en>
+		<de>????</de>
+		<sk>????</sk>
+		<cs>????</cs>
+	</str>
+	<str id="BarsCount">
+		<pl>Liczba ciągów / zestawów na słup</pl>
+		<en>????</en>
+		<de>????</de>
+		<sk>????</sk>
+		<cs>????</cs>
+	</str>
+	<str id="StudDiameters">
+		<pl>Średnice trzpieni KBD</pl>
+		<en>Stud diameters KBD</en>
+		<de>Stabdurchmesser KBD</de>
+		<sk>Priemer šmykovej výstuže KBD</sk>
+		<cs>Průměr smykové výztuže KBD</cs>
+	</str>
+	<str id="SelectedBar">
+		<pl>Dobór zestawów</pl>
+		<en>????</en>
+		<de>????</de>
+		<sk>????</sk>
+		<cs>????</cs>
+	</str>
+
+	<str id="Condition">
+		<pl>Sprawdzenie warunku</pl>
+		<en>Condition control</en>
+		<de>Überprüfen Sie den Zustand</de>
+		<sk>Kontrola podmienok</sk>
+		<cs>Kontrola podmínek</cs>
+	</str>
+	<str id="Executed">
+		<pl>spełniony</pl>
+		<en>executed</en>
+		<de>ausgeführt</de>
+		<sk>vykonaný</sk>
+		<cs>popraven</cs>
+	</str>
+	<str id="NotExecuted">
+		<pl>niespełniony</pl>
+		<en>not executed</en>
+		<de>nicht ausgeführt</de>
+		<sk>nevykonaný</sk>
+		<cs>neprovedeno </cs>
+	</str>
+	<str id="ChangeParams">
+		<pl>Należy zmienić parametry połączenia (grubość płyty, klasę wytrzymałość betonu, stopień zbrojenia głównego)</pl>
+		<en>It is necessary to change the design parameters (slab thickness, strenght classe of concrete, reinformement ratio)</en>
+		<de>Verbindungsparameter sollten geändert werden (Plattendicke, Betonfestigkeitsklasse, Hauptbewehrungsgrad)</de>
+		<sk>Je potrebné zmeniť parametre návrhu (hrúbku dosky, triedu betónu, stupeň vystuženia hlavnej výstuže)</sk>
+		<cs>Je nutno změnit parametry uložení (tloušťku desky, třídu betonu, stupeň vyztužení)</cs>
+	</str>
+	<str id="NotRequired">
+		<pl>Zbrojenie na przebicie nie jest wymagane</pl>
+		<en>Shear reinforcement are not required</en>
+		<de>Stanzschubbewehrung ist nicht erforderlich</de>
+		<sk>Šmykové tŕne nie sú potrebné</sk>
+		<cs>Smykové trny nejsou potřeba.</cs>
+	</str>
+	<str id="Required">
+		<pl>Należy zaprojektować zbrojenie na przebicie</pl>
+		<en>Shear reinforcement are needed</en>
+		<de>Die Stanzscherbewehrung muss ausgelegt sein</de>
+		<sk>Šmykové tŕne sú potrebné</sk>
+		<cs>Je nutno použít smykové trny!</cs>
+	</str>
+</group>
+
+<group id="Messages">
+	<str id="Confirm">
+		<pl>Potwierdź</pl>
+		<en>Confirm</en>
+		<de>Bestaetigen</de>
+		<sk>Potvrdiť</sk>
+		<cs>Potvrdit</cs>
+	</str>
+	<str id="SaveDocument">
+		<pl>Czy zapisać document?</pl>
+		<en>Save the document?</en>
+		<de>Datei speichern?</de>
+		<sk>Uložiť dokument?</sk>
+		<cs>Uložit dokument?</cs>
+	</str>
+	<str id="GreaterThanZero">
+		<pl>Wartość musi być dodatnia</pl>
+		<en>The value must be positive</en>
+		<de>Der Wert muss positiv sein</de>
+		<sk>Hodnota musí byť kladná</sk>
+		<cs>Hodnota musí být kladná</cs>
+	</str>
+	<str id="DeleteAllOpenings">
+		<pl>Usunąć wszystkie otwory z listy?</pl>
+		<en>Delete all openings from the list?</en>
+		<de>Alle Oeffnungen aus der Liste loeschen?</de>
+		<sk>Odstrániť všetky otvory zo zoznamu?</sk>
+		<cs>Smazat všechny otvory ze seznamu?</cs>
+	</str>
+	<str id="IncorrectOpeningPosition">
+		<pl>Nieprawidłowe położenie otworu</pl>
+		<en>Incorrect opening position</en>
+		<de>Lochposititon falsch</de>
+		<sk>Nesprávná poloha otvoru</sk>
+		<cs>Nesprávná poloha prostupu</cs>
+	</str>
+	<str id="CalculationsInterrupted">
+		<pl>Obliczenia przerwane</pl>
+		<en>Calculations interrupted</en>
+		<de>Berechnungen unterbrochen</de>
+		<sk>Výpočty boli prerušené</sk>
+		<cs>Výpočty byly přerušeny</cs>
+	</str>
+	<str id="CalculationsFailed">
+		<pl>Obliczenia nie powiodły się</pl>
+		<en>Calculations failed</en>
+		<de>Berechnungen fehlgeschlagen</de>
+		<sk>Výpočty zlyhali</sk>
+		<cs>Výpočty selhaly</cs>
+	</str>
+</group>
+
+</translation>
