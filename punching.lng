@@ -154,6 +154,21 @@
 		<sk>Všetky súbory</sk>
 		<cs>Všechny soubory</cs>
 	</str>
+	<str id="Restriction">
+		<pl>Niniejsza propozycja dotyczy wyłącznie produktów własnych KONTAKT-SK i nie może być wykorzystywana do weryfikacji innych podobnych rozwiązań.</pl>
+		<en>This proposal concerns only KONTAKT-SK's own products and cannot be used to verify other similar solutions.</en>
+		<de>????</de>
+		<sk>Tento návrh sa vzťahuje výhradne na vlastné KONTAKT-SK výrobky a nemôže byť použitý na overenie výrobkov
+tretích strán, hoci sa tieto zdajú byť identické.</sk>
+		<cs>????</cs>
+	</str>
+	<str id="Responsibility">
+		<pl>Autorzy dołożyli wszelkich starań, by program umożliwiał poprawne obliczanie zbrojenia na przebicie. Nie mogą jednak wykluczyć zaistnienia błędów obliczeniowych, dlatego też do uzyskanych wyników należy podchodzić w sposób krytyczny. Użytkownik programu jest w pełni odpowiedzialny za dokonane przy użyciu programów obliczenia i firma KONTAKT-SK nie ponosi odpowiedzialności za konsekwencje zastosowania uzyskanych wyników obliczeń w projekcie. Użytkownik programu powinien dokonać krytycznej oceny uzyskanych wyników w świetle obowiązujących przepisów i procedur projektowych, Krajową Oceną Techniczną i zgodnie z aktualną wiedzą techniczną.</pl>
+		<en>The authors have made every effort to ensure that the program enables the correct calculation of the punching shear reinforcement. However, they cannot exclude the occurrence of calculation errors, therefore the obtained results should be approached critically. The program user is fully responsible for the calculations made using the programs and the KONTAKT-SK company is not responsible for the consequences of applying the obtained calculation results in the project. The program user should make a critical assessment of the obtained results in the light of applicable regulations and design procedures, the National Technical Assessment and in accordance with the current technical knowledge.</en>
+		<de>????</de>
+		<sk>????</sk>
+		<cs>????</cs>
+	</str>
 </group>
 
 <group id="GParamsForm">
@@ -170,6 +185,34 @@
 		<de>Normen Parameter</de>
 		<sk>Normové parametre</sk>
 		<cs>Volba součinitelů</cs>
+	</str>
+	<str id="CGamma">
+		<pl>Częściowy współczynnik bezpieczeństwa dla betonu</pl>
+		<en>????</en>
+		<de>????</de>
+		<sk>????</sk>
+		<cs>????</cs>
+	</str>
+	<str id="SGamma">
+		<pl>Częściowy współczynnik bezpieczeństwa dla stali</pl>
+		<en>????</en>
+		<de>????</de>
+		<sk>????</sk>
+		<cs>????</cs>
+	</str>
+	<str id="BetaCoefficient">
+		<pl>Współczynnik zwiększający</pl>
+		<en>Beta coefficient</en>
+		<de>Beta-Faktor</de>
+		<sk>Koeficient beta</sk>
+		<cs>Součinitel beta</cs>
+	</str>
+	<str id="KMaxCoefficient">
+		<pl>Współczynnik ograniczający</pl>
+		<en>????</en>
+		<de>????</de>
+		<sk>????</sk>
+		<cs>????</cs>
 	</str>
 	<str id="BetaMethods">
 		<pl>Wybór współczynika beta</pl>
@@ -527,7 +570,8 @@
 		<cs>Spodní okraj</cs>
 	</str>
 	<str id="EdgeDistance">
-		<pl>Odsunięcie krawędzi</pl>
+		<!-- <pl>Odsunięcie krawędzi</pl> -->
+		<pl>Przewieszenie płyty</pl>
 		<en>Edge distance</en>
 		<de>Kantenabstand</de>
 		<sk>Vzdialenosť od okraja</sk>
@@ -571,6 +615,27 @@
 		<sk>Trieda ocele</sk>
 		<cs>Třída oceli</cs>
 	</str>
+	<str id="FckCoefficient">
+		<pl>Charakterystyczna wytrzymałość betonu na ściskanie</pl>
+		<en>????</en>
+		<de>????</de>
+		<sk>????</sk>
+		<cs>????</cs>
+	</str>
+	<str id="FykCoefficient">
+		<pl>Charakterystyczna granica plastyczności zbrojenia głównego</pl>
+		<en>????</en>
+		<de>????</de>
+		<sk>????</sk>
+		<cs>????</cs>
+	</str>
+	<str id="FywkCoefficient">
+		<pl>Charakterystyczna granica plastyczności trzpieni</pl>
+		<en>????</en>
+		<de>????</de>
+		<sk>????</sk>
+		<cs>????</cs>
+	</str>
 </group>
 
 <group id="GeometryFrame">
@@ -582,14 +647,16 @@
 		<cs>Geometrie</cs>
 	</str>
 	<str id="ColumnLength">
-		<pl>Długość słupa</pl>
+		<!-- <pl>Długość słupa</pl> -->
+		<pl>Wymiar słupa równoległy do osi x</pl>
 		<en>Column length</en>
 		<de>Saeulenlaenge</de>
 		<sk>Dĺžka stĺpa</sk>
 		<cs>Výška průřezu sloupu</cs>
 	</str>
 	<str id="ColumnWidth">
-		<pl>Szerokość słupa</pl>
+		<!-- <pl>Szerokość słupa</pl> -->
+		<pl>Wymiar słupa równoległy do osi y</pl>
 		<en>Column width</en>
 		<de>Saeulenbreite</de>
 		<sk>Šírka stĺpa</sk>
@@ -640,22 +707,29 @@
 		<sk>Výstuž</sk>
 		<cs>Výztuž</cs>
 	</str>
+	<str id="Diameter">
+		<pl>Średnica zbrojenia głównego</pl>
+		<en>Reinforcement diameter</en>
+		<de>Verstärkungsdurchmesser</de>
+		<sk>Priemer výstuže</sk>
+		<cs>Průměr vložek</cs>
+	</str>
 	<str id="Spacing">
-		<pl>Rozstaw zbrojenia</pl>
+		<pl>Rozstaw zbrojenia głównego</pl>
 		<en>Reinforcement spacing</en>
 		<de>Bewehrungsabstand</de>
 		<sk>Rozostup výstuže</sk>
 		<cs>Rozteč vložek</cs>
 	</str>
 	<str id="Section">
-		<pl>Poziom zbrojenia</pl>
+		<pl>Przekrój zbrojenia głównego</pl>
 		<en>Reinforcement area</en>
 		<de>Bewehrungsverstaerkung</de>
 		<sk>Plocha výstuže</sk>
 		<cs>Plocha výztuže</cs>
 	</str>
 	<str id="Grade">
-		<pl>Stopień zbrojenia</pl>
+		<pl>Stopień zbrojenia głównego</pl>
 		<en>Reinforcemet ratio</en>
 		<de>Grad der Verstaerkung</de>
 		<sk>Stupeň vystuženia</sk>
@@ -672,11 +746,14 @@
 		<cs>Zatížení</cs>
 	</str>
 	<str id="Moment">
-		<pl>Moment</pl>
-		<en>Moment</en>
-		<de>Drehmoment</de>
-		<sk>Ohybový moment</sk>
-		<cs>Ohybový moment</cs>
+		<pl>Moment niezrównoważony</pl>
+		<en>Moment in the axis</en>
+		<de>Unausgeglichener Moment</de>
+		<sk>Pôsobiaci moment v osi</sk>
+		<cs>Nerovnovážný moment</cs>
+		<!-- <de>Drehmoment</de> -->
+		<!-- <sk>Ohybový moment</sk> -->
+		<!-- <cs>Ohybový moment</cs> -->
 	</str>
 	<str id="ShearLoad">
 		<pl>Siła przebijająca</pl>
@@ -685,7 +762,7 @@
 		<sk>Sila (všeobecne)</sk>
 		<cs>Normálová síla</cs>
 	</str>
-	<str id="Factor">
+	<str id="Delta">
 		<pl>Obciążenie dynamiczne</pl>
 		<en>Dynamic load</en>
 		<de>Dynamische Kraft</de>
@@ -760,6 +837,13 @@
 		<de>Oeffnungsbreite</de>
 		<sk>Šírka otvoru</sk>
 		<cs>Šířka otvoru</cs>
+	</str>
+	<str id="OpeningDiameter">
+		<pl>Średnica otworu</pl>
+		<en>Opening diameter</en>
+		<de>Offnungsdurchmesser</de>
+		<sk>Priemer otvoru</sk>
+		<cs>Průměr otvoru</cs>
 	</str>
 	<str id="OpeningShape">
 		<pl>Kształt otworu</pl>
@@ -920,11 +1004,12 @@
 		<cs>Prostupy</cs>
 	</str>
 	<str id="EdgeDistance">
-		<pl>Przewieszenie</pl>
-		<en>Edge offset</en>
-		<de>Kantenversatz</de>
-		<sk>Posunutie okraja</sk>
-		<cs>Závěsný</cs>
+		<!-- <pl>Odsunięcie krawędzi</pl> -->
+		<pl>Przewieszenie płyty</pl>
+		<en>Edge distance</en>
+		<de>Kantenabstand</de>
+		<sk>Vzdialenosť od okraja</sk>
+		<cs>Vzdálenost od okraje</cs>
 	</str>
 	<str id="SlabThickness">
 		<pl>Grubość płyty</pl>
@@ -1013,7 +1098,7 @@
 		<cs>Nerovnovážný moment</cs>
 	</str>
 	<str id="BetaValue">
-		<pl>Współczynnik</pl>
+		<pl>Współczynnik zwiększający</pl>
 		<en>Coefficient</en>
 		<de>Faktor</de>
 		<sk>Koeficient</sk>
@@ -1083,12 +1168,33 @@
 		<sk>Maximálna šmyková odolnosť na pretlačenie</sk>
 		<cs>Maximální stres</cs>
 	</str>
-	<str id="NuRdcValue">
-		<pl>Naprężenie graniczne</pl>
-		<en>Punching shear resistance of a slab without punching shear reinforcement</en>
+	<str id="NuRdcValue_v1">
+		<pl>Naprężenie graniczne płyty</pl>
+		<en>Punching shear resistance of a slab</en>
 		<de>Stress begrenzen</de>
-		<sk>Šmyková odolnosť pri pretlačení dosky bez šmykovej výstuže</sk>
+		<sk>Šmyková odolnosť pri pretlačení</sk>
 		<cs>Omezte stres</cs>
+	</str>
+	<str id="NuRdcValue_v2">
+		<pl>bez wzmocnienia</pl>
+		<en>without punching shear reinforcement</en>
+		<de>.</de>
+		<sk>dosky bez šmykovej výstuže</sk>
+		<cs>.</cs>
+	</str>
+	<str id="NuRdczValue_v1">
+		<pl>Naprężenie graniczne płyty</pl>
+		<en>Punching shear resistance of a slab</en>
+		<de>Stress begrenzen</de>
+		<sk>Šmyková odolnosť pri pretlačení</sk>
+		<cs>Omezte stres</cs>
+	</str>
+	<str id="NuRdczValue_v2">
+		<pl>ze wzmocnieniem</pl>
+		<en>with punching shear reinforcement</en>
+		<de>.</de>
+		<sk>dosky z šmykovej výstuže</sk>
+		<cs>.</cs>
 	</str>
 	<str id="UoutValue">
 		<pl>Zewnętrzny obwód kontrolny</pl>
@@ -1104,9 +1210,23 @@
 		<sk>Rozsah vystuženia na pretlačenie</sk>
 		<cs>Rozsah výztuže na protlačení</cs>
 	</str>
-	<str id="AswValue">
+	<str id="AswreqValue">
+		<pl>Wymagane pole zbrojenia na przebicie</pl>
+		<en>Required area of shear reinforcement</en>
+		<de>Stanzverstärkungsbereich</de>
+		<sk>Plocha jedného obvodu šmykovej výstuže</sk>
+		<cs>Plocha výztuže na protlačení</cs>
+	</str>
+	<str id="AswprovValue">
 		<pl>Pole zbrojenia na przebicie</pl>
-		<en>Area of one perimeter of shear reinforcement</en>
+		<en>Provided area of shear reinforcement</en>
+		<de>Stanzverstärkungsbereich</de>
+		<sk>Plocha jedného obvodu šmykovej výstuže</sk>
+		<cs>Plocha výztuže na protlačení</cs>
+	</str>
+	<str id="AswtotalValue">
+		<pl>Całkowite pole zbrojenia na przebicie</pl>
+		<en>Total area of shear reinforcement</en>
 		<de>Stanzverstärkungsbereich</de>
 		<sk>Plocha jedného obvodu šmykovej výstuže</sk>
 		<cs>Plocha výztuže na protlačení</cs>
@@ -1176,8 +1296,8 @@
 		<cs>neprovedeno </cs>
 	</str>
 	<str id="ChangeParams">
-		<pl>Należy zmienić parametry połączenia (grubość płyty, klasę wytrzymałość betonu, stopień zbrojenia głównego)</pl>
-		<en>It is necessary to change the design parameters (slab thickness, strenght classe of concrete, reinformement ratio)</en>
+		<pl>Należy zmienić parametry połączenia (grubość płyty, klasę wytrzymałości betonu, stopień zbrojenia głównego)</pl>
+		<en>It is necessary to change the design parameters (slab thickness, strength class of concrete, reinformement ratio)</en>
 		<de>Verbindungsparameter sollten geändert werden (Plattendicke, Betonfestigkeitsklasse, Hauptbewehrungsgrad)</de>
 		<sk>Je potrebné zmeniť parametre návrhu (hrúbku dosky, triedu betónu, stupeň vystuženia hlavnej výstuže)</sk>
 		<cs>Je nutno změnit parametry uložení (tloušťku desky, třídu betonu, stupeň vyztužení)</cs>
@@ -1187,7 +1307,7 @@
 		<en>Shear reinforcement are not required</en>
 		<de>Stanzschubbewehrung ist nicht erforderlich</de>
 		<sk>Šmykové tŕne nie sú potrebné</sk>
-		<cs>Smykové trny nejsou potřeba.</cs>
+		<cs>Smykové trny nejsou potřeba</cs>
 	</str>
 	<str id="Required">
 		<pl>Należy zaprojektować zbrojenie na przebicie</pl>
@@ -1195,6 +1315,28 @@
 		<de>Die Stanzscherbewehrung muss ausgelegt sein</de>
 		<sk>Šmykové tŕne sú potrebné</sk>
 		<cs>Je nutno použít smykové trny!</cs>
+	</str>
+
+	<str id="LoadUsing">
+		<pl>Wykorzystanie nośności</pl>
+		<en>Use of load capacity</en>
+		<de>Nutzung der Tragfähigkeit</de>
+		<sk>Využitie nosnosti</sk>
+		<cs>Využití nosnosti</cs>
+	</str>
+	<str id="SlabWithoutStuds">
+		<pl>płyta bez zbrojenia poprzecznego</pl>
+		<en>slab without transverse reinforcement</en>
+		<de>Platte ohne Querbewehrung</de>
+		<sk>doska bez priečnej výstuže</sk>
+		<cs>deska bez příčné výztuže</cs>
+	</str>
+	<str id="SlabWithStuds">
+		<pl>płyta ze zbrojeniem poprzecznym</pl>
+		<en>slab with transverse reinforcement</en>
+		<de>Platte mit Querverstärkung</de>
+		<sk>doska s priečnou výstužou</sk>
+		<cs>deska s příčnou výztuží</cs>
 	</str>
 </group>
 
@@ -1213,6 +1355,20 @@
 		<sk>Uložiť dokument?</sk>
 		<cs>Uložit dokument?</cs>
 	</str>
+	<str id="LessThan">
+		<pl>mniejszy(a) niż</pl>
+		<en>less than</en>
+		<de>kleiner als</de>
+		<sk>menšia než</sk>
+		<cs>menší než</cs>
+	</str>
+	<str id="GreaterThan">
+		<pl>większy(a) niż</pl>
+		<en>greater than</en>
+		<de>größer als</de>
+		<sk>väčší než</sk>
+		<cs>větší než</cs>
+	</str>
 	<str id="GreaterThanZero">
 		<pl>Wartość musi być dodatnia</pl>
 		<en>The value must be positive</en>
@@ -1226,6 +1382,13 @@
 		<de>Alle Oeffnungen aus der Liste loeschen?</de>
 		<sk>Odstrániť všetky otvory zo zoznamu?</sk>
 		<cs>Smazat všechny otvory ze seznamu?</cs>
+	</str>
+	<str id="IncorrectData">
+		<pl>Nieprawidłowe dane</pl>
+		<en>Incorrect data</en>
+		<de>Falsche Daten</de>
+		<sk>Nesprávne údaje</sk>
+		<cs>Nesprávne údaje</cs>
 	</str>
 	<str id="IncorrectOpeningPosition">
 		<pl>Nieprawidłowe położenie otworu</pl>
@@ -1247,6 +1410,27 @@
 		<de>Berechnungen fehlgeschlagen</de>
 		<sk>Výpočty zlyhali</sk>
 		<cs>Výpočty selhaly</cs>
+	</str>
+	<str id="EdgeDistanceError">
+		<pl>Odległość krawędzi od słupa za duża</pl>
+		<en>????</en>
+		<de>????</de>
+		<sk>????</sk>
+		<cs>????</cs>
+	</str>
+	<str id="CalcsEdgeError">
+		<pl>Zmień rodzaj słupa na wewnętrzny</pl>
+		<en>????</en>
+		<de>????</de>
+		<sk>????</sk>
+		<cs>????</cs>
+	</str>
+	<str id="CalcsCornerError">
+		<pl>Zmień rodzaj słupa na wewnętrzny lub krawędziowy</pl>
+		<en>????</en>
+		<de>????</de>
+		<sk>????</sk>
+		<cs>????</cs>
 	</str>
 </group>
 

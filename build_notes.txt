@@ -140,4 +140,50 @@ Punching    wersja 1.0.0.9    (18.03.2021)
 [UNF] pominięcie prętów zbrojenia w otworach oraz w ich śladzie
 [UNF] eksport do formatu dxf wyznaczonego rozkładu zbrojenia
 [UNF] po zmianie skalowania widoku do wartości 125% indeksy nachodzą na oznaczenia
+[BUG] błąd zapisu pliku licencji w katalogu domowym użytkownika
+
+
+Punching    wersja 1.0.1.10    (24.03.2021)
+
+[FIX] błąd zapisu pliku licencji w katalogu domowym użytkownika
+[FIX] zmiana kryterium (układ równoległy lub promienisty) automatycznego rozkładu listw na obwodach
+[UNF] brak parametrów długości ls,req i ls,prov oraz Asw,req i Asw,prov w podsumowaniu i raporcie
+[UNF] brak rozpisania warunków spełnienia nośności oraz poziomu wytężenia w podsumowaniu i raporcie
+[UNF] weryfikacja poprawności położenia otworów (względem słupa lub innych otworów)
+[UNF] zablokowanie możliwości wstawienia otworu w obrysie słupa
+[UNF] zablokowanie możliwości dodania kilku otworów w jednym miejscu
+[UNF] pominięcie prętów zbrojenia w otworach oraz w ich śladzie
+[UNF] eksport do formatu dxf wyznaczonego rozkładu zbrojenia
+[UNF] po zmianie skalowania widoku do wartości 125% indeksy nachodzą na oznaczenia
+
+
+Punching    wersja 1.0.1.11    (28.05.2021)
+
+[NEW] eksport do formatu dxf wyznaczonego rozkładu zbrojenia
+[NEW] weryfikacja wartości minimalnych i maksymalnych wprowadzanych wielkości
+[NEW] weryfikacja poprawności położenia otworów (względem słupa lub innych otworów)
+[FIX] zablokowanie obliczeń po wstawieniu otworu w obrysie słupa
+[FIX] zablokowanie obliczeń po dodaniu kilku otworów w jednym miejscu
+[FIX] otwory nie mogą znajdować się w odległości większej niż 6*deff od słupa
+[FIX] zwiększenie dokładności obliczeń w podsumowaniu do 3 miejsc dziesiętnych
+[FIX] po zmianie skalowania widoku do wartości 125% indeksy nachodzą na oznaczenia
+[FIX] błędnie obliczona długość obwodu u0 w przypadku słupów krawędziowych i narożnych
+[FIX] wyświetlenie informacji w przypadku, gdy nie można wyznaczyć zbrojenia strefy przysłupowej 
+[FIX] poprawa oznaczenie typoszeregu  dobranego zestawu listw KDB w raporcie
+[FIX] brak parametrów długości ls,req i ls,prov oraz Asw,req i Asw,prov w podsumowaniu i raporcie
+[FIX] poprawa oznaczenie typoszeregu  dobranego zestawu listw KDB w raporcie
+[FIX] brak rozpisania warunków spełnienia nośności oraz poziomu wytężenia w podsumowaniu i raporcie
+[FIX] wyświetlenie procentowego wykorzystania nośności
+[UNF] pominięcie prętów zbrojenia w otworach oraz w ich śladzie
+[UNF] widok przekroju słupa, płyty oraz listw i trzpieni
+
+
+Punching    wersja 1.0.1.12    (25.06.2021)
+
+[NEW] dodanie informacji o zakresie odpowiedzialności po uruchomieniu programu
+[FIX] weryfikacja wartości granicznego naprężenia płyty ze zbrojeniem  nu_Rdcz
+[FIX] zmiana ograniczenia dolnego dla wartości momentów niezrównoważonych
+[FIX] przerwanie obliczeń w przypadku, gdy krawędzie są położone daleko od słupa
+[UNF] pominięcie prętów zbrojenia w otworach oraz w ich śladzie
+[UNF] widok przekroju słupa, płyty oraz listw i trzpieni
 
